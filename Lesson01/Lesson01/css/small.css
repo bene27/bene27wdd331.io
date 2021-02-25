@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
-h1 {font-family: 'Lora', serif;
-    color:white ;
+h1 a:link{font-family: 'Lora', serif;
+    color:#FAEBD7 ;
 }
 
 h2{font-family: 'Lora', serif;
@@ -24,12 +24,12 @@ main{background-color:#FAEBD7;
     padding: 40px 40px 40px 40px;
 }
 
-nav a{color:#FAEBD7;
-       text-decoration:none;
+nav a:link {color:#FAEBD7;
+    text-decoration:none;
 }
 
 nav a:visited{color:#FAEBD7;
-             text-decoration: none;
+          text-decoration: none;
 }
 
 nav a:active{color:#DEB887 ;
@@ -37,13 +37,13 @@ nav a:active{color:#DEB887 ;
 nav a:hover{color:white;
 }
 
-a{color: #6495ED;
-  text-decoration: none;
+a:link {color: #6495ED;
+     text-decoration: none;
 }
 
 a:visited{color: #6495ED;
-          text-decoration: none;
-  }
+       text-decoration: none;
+}
 
 a:active{color:#DEB887;
 }
@@ -51,17 +51,18 @@ a:active{color:#DEB887;
 a:hover{color:#DEB887;
 }
 
-article a{color:black;
-          text-decoration: none;
-        }
+article a:link{color:black;
+     text-decoration: none;
+}
 
 article a:visited{color:black;
-                 text-decoration: none;
-          }
+             text-decoration: none;
+}
 
 article a:active{color:#DEB887;
 }
 
 article a:hover{color:#6495ED;
 }
- 
+
+
