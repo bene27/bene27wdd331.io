@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+$fonts:  'Lora', serif;
+
+$lightercolor:#FAEBD7;
+
+$dcolor:#DEB887;
+
+@mixin same() {
+    color:$lightercolor;
+    text-decoration:none;
+
+}
+
+@mixin black() {
+    color:black;
+    text-decoration: none;
+    
+}
+
+
+h1 a:link{font-family: $fonts;
+          color:$lightercolor;
+}
+
+h2{font-family: $fonts;
+}
+
+header{background-color:#6495ED;
+       color: $lightercolor;
+       text-align: right;
+}
+li{list-style: none;}
+
+article{background-color: white;}
+
+body{font-family:Helvetica, Arial, sans-serif;
+     
+}
+
+main{background-color:$lightercolor;
+    text-align: center;
+    padding: 40px 40px 40px 40px;
+}
+
+nav a:link {@include same();
+}
+
+nav a:visited{@include same();
+}
+
+nav a:active{color:$dcolor;
+             &hover{color: white;
+    }
+}
+
+
+a:link {color: #6495ED;
+        text-decoration: none;
+}
+
+a:visited{color: #6495ED;
+          text-decoration: none;
+}
+
+a:active{color:$dcolor;
+}
+
+a:hover{color:$dcolor;
+}
+
+article a:link{@include black()
+}
+
+article a:visited{ @include black()
+}
+
+article a:active{color:$dcolor;
+}
+
+article a:hover{color:#6495ED;
+}
+
+
